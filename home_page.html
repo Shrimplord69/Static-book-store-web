@@ -2,14 +2,58 @@
 <html>
 <head>
   <title>Books R Us</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home_page.css">
 </head>
 <body>
+  <!-- utility bar at the very top-->
+  <div id="shopify-section-static-utility-bar" class="shopify-section">
+    <section class="utility-bar">
+      <div class="utility-bar_content">
+        <div class="utility-bar_content-left">
+          <a href="home_page.html" class="utility-bar_menu-link">Home</a>
+          <a href="about-us_page.html" class="utility-bar_menu-link">About Us</a>
+          <a href="store-hours_page.html" class="utility-bar_menu-link">Store Hours</a>
+          <a href="Bo map vao day" class="utility-bar_menu-link">Location</a>
+          <a href="contacts.html" class="utility-bar_menu-link">Contact Us</a>
+        </div>
+        <div class="utility-bar_content-right" data-disclosure-item></div>
+      </div>
+    </section>
+    <!-- utility bar for mobile using hamburger icon model-->
+    <div class="utility-bar_mobile" data-utility-menu-mobile>
+      <span class="utility-bar_mobile_border"></span>
+      <div class="utility-bar_mobile-nav  utility-bar_mobile-nav-below">
+        <ul class="navmenu_navmenu-depth-1" data-navmenu>
+          <!--Home section-->
+          <li class="navmenu-item  navmenu-id-home">
+            <a class="navmenu-link_navmenu-link-depth-1_navmenu-link-active" href="home_page.html">Home</a>
+          </li>
+          <!--About Us Section-->
+          <li class="navmenu-item  navmenu-id-about-us">
+            <a class="navmenu-link_navmenu-link-depth-1" href="about-us_page.html">About Us</a>
+          </li>
+          <!--Store Hours-->
+          <li class="navmenu-item  navmenu-id-store-hours">
+            <a class="navmenu-link_navmenu-link-depth-1" href="store-hours_page.html">Store Hours</a>
+          </li>
+          <!--Location-->
+          <li class="navmenu-item  navmenu-id-location">
+            <a class="navmenu-link_navmenu-link-depth-1" href="bo map vao day">Location</a>
+          </li>
+          <!--Contact Us-->
+          <li class="navmenu-item  navmenu-id-contact-us">
+            <a class="navmenu-link_navmenu-link-depth-1" href="contacts.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="utility-bar_mobile-disclosure" data-utility-bar-mobile> </div>
+  </div>
   <header>
     <div class="logo-container">
       <img src="logo.png" alt="Books R Us Logo" class="logo">
     </div>
-    <nav>
+    <nav class="navbar">
       <ul>
         <li><a href="home_page.html">Home</a></li>
         <li><a href="category.html">Category</a></li>
@@ -24,7 +68,7 @@
       <div class="category">
         <h3>Category 1</h3>
         <ul>
-          <li><a href="book1.html">Book 1</a></li>
+          <li><a href="book_detail.html">Book 1</a></li>
           <li><a href="book2.html">Book 2</a></li>
           <li><a href="book3.html">Book 3</a></li>
           <!-- Add more books here -->
