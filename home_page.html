@@ -49,7 +49,8 @@
     </div>
     <div class="utility-bar_mobile-disclosure" data-utility-bar-mobile> </div>
   </div>
-  <header>
+  <!--old nav bar-->
+  <!--<header>
     <div class="logo-container">
       <img src="logo.png" alt="Books R Us Logo" class="logo">
     </div>
@@ -58,10 +59,163 @@
         <li><a href="home_page.html">Home</a></li>
         <li><a href="category.html">Category</a></li>
         <li><a href="contacts.html">Contact us</a></li>
-        <!-- Add more categories here -->
+         #Add more categories here# 
       </ul>
     </nav>
+  </header>-->
+  <!--latest nav bar-->
+  <header class="site-header site-header-nav-open" role="banner" data-site-header>
+    <div id="shopify-section-static-header" class="shopify-section site-header-wrapper">
+      <div class="site-header-main" data-site-header-main data-site-header-sticky data-site-header-mobile-search-bar>
+        <button class="site-header-menu-toggle" data-menu-toggle>
+          <div class="site-header-menu-toggle-button" tabindex="-1">
+            <span class="toggle-icon-bar toggle-icon-bar-top"></span>
+            <span class="toggle-icon-bar toggle-icon-bar-middle"></span>
+            <span class="toggle-icon-bar toggle-icon-bar-bottom"></span>
+            <span class="visually-hidden">Menu</span>
+          </div>
+        </button>
+        <div class="site-header-main-content small-promo-enabled">
+          <div class="site-header-logo">
+            <a class="site-logo" href="home_page.html">
+              <img src=" 1x, 2x, 3x, 4x" class="site-logo-image"> <!--input img url into each nx-->
+            </a>
+          </div>
+          <div class="live-search" data-live-search>
+            <form class="live-search-form form-fields-inline" action="/page/search-results-page" method="get" role="search" aria-label="Product" data-live-search-form>
+              <input type="hidden" name="type" value="product">
+              <div class="form-fields no-label">
+                <input class="form-field-input live-search-form-field snize-input-style" type="text" name="q" aria-label="Search" placeholder="What are you looking for ?" autocomplete="off" data-live-search-input>
+                <button class="live-search-takeover-cancel" type="submit" aria-label="Search" data-live-search-submit>Cancel</button>
+                <button class="live-search-button" type="submit" aria-label="Search" data-live-search-submit>
+                  <span class="search-icon search-icon-inactive">
+                    <!--to draw the magnify glass icon for the live search bar-->
+                    <svg aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="23" height="24" fill="none" viewBox="0 0 23 24">
+                      <path d="M21 21L15.5 15.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                      <circle cx="10" cy="9" r="8" stroke="currentColor" stroke-width="2"></circle>
+                    </svg>
+                  </span>
+                  <span class="search-icon search-icon-active">
+                    <svg aria-hidden="true" focusable="false" role="presentation" width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+                      <g fill-rule="nonzero" fill="currentColor">
+                        <path d="M13 26C5.82 26 0 20.18 0 13S5.82 0 13 0s13 5.82 13 13-5.82 13-13 13zm0-3.852a9.148 9.148 0 1 0 0-18.296 9.148 9.148 0 0 0 0 18.296z" opacity=".29"></path>
+                        <path d="M13 26c7.18 0 13-5.82 13-13a1.926 1.926 0 0 0-3.852 0A9.148 9.148 0 0 1 13 22.148 1.926 1.926 0 0 0 13 26z"></path>
+                      </g>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <!--search fly down-->
+              <div class="search-flydown" data-live-search-flydown>
+                <div class="search-flydown-placeholder" data-live-search-placeholder>
+                  <div class="search-flydown-product-items">
+                    <a class="search-flydown-product search-flydown-product" href="home_page.html">
+                      <div class="search-flydown-product-text">
+                        <span class="search-flydown-product-title placeholder-content-text"></span>
+                        <span class="search-flydown-product-price placeholder-content-text"></span>
+                      </div>
+                    </a>
+                    <a class="search-flydown-product search-flydown-product" href="home_page.html">
+                      <div class="search-flydown-product-text">
+                        <span class="search-flydown-product-title placeholder-content-text"></span>
+                        <span class="search-flydown-product-price placeholder-content-text"></span>
+                      </div>
+                    </a>
+                    <a class="search-flydown-product search-flydown-product" href="home_page.html">
+                      <div class="search-flydown-product-text">
+                        <span class="search-flydown-product-title placeholder-content-text"></span>
+                        <span class="search-flydown-product-price placeholder-content-text"></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="search-flydown-result " data-live-search-result></div>
+              </div>
+            </form>
+          </div>
+          <!--a small location icon next to store address-->
+          <div class="small-promo">
+            <span class="small-promo-icon small-promo-icon-svg">
+              <svg class="icon-pin" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="30" height="44" viewBox="0 0 30 44" fill="none">
+                <path d="M29.0211 14.9787C29.0211 22,8819 23.5296 27.4279 19.4142 31.8298C16.9502 34.466 14.9786 43.0638 14.9786 43.0638C14.9786 43.0638 13.0126 34.4717 10.5542 31,8429C6.4351 27.4429 0.936035 22.8894 0.936035 14.9787C0.936035 11.2544 2.41551 7.68263 5.049 5.0491407.68249 2,41565 11.2543 0.936172 14.9786 0.936172C18.7029 0.936172 22.2747 2.41565 24.90825.04914C27.5417 7.68263 29-0211 11.2544 29.0211 14.9787V14.9787Z"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M9.36182 14.9787C9.36182 16.4684 9.95361 17.8972 11.007 18.9506C12.0604 20.0039 13.4891 20.5957 14.9788 20.5957C16.4686 20.5957 17.8973 20.0039 18.9507 18.9506C20.0041 17.8972 20.5959 16.4684 20.5959 14.9787C20.5959 13.489 20.0041 12.0603 18.9507 11.0969C17.8974 9.95349 16.4686 9.36169 14.9788 9.36169C13.4891 9.36169 12.0604 9.95349 11.007 11.0069C9.95861 12.0604 9.36182 13.489 9.36182 14.9787Z" 
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" strok-linejoin="round"></path>
+              </svg>
+            </span>
+            <!--store address-->
+            <div class="small-promo-content">
+              <div class="small-promo-content-desktop">
+                <p>dia chi store</p>
+                <p>Viet Nam D? W?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--site header right(contain login, wishlist, shoping cart)-->
+        <div class="site-header-right">
+          <ul class="site-header-action" data-header-actions>
+            <li class="site-header-action_account-link">
+              <!--draw account icon-->
+              <span class="site-header_account-icon">
+                <svg class="icon-account" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 26" fill="none">
+                  <path d="M11.3336 14.44447C14.7538 14.4447 17.5264 11.6417 17.5264 8.18392C17.5264 4.72616 14.7538 1.9231 11.3336 1.9231C7.91347 1.9231 5.14087 4.72616 5.14087 8.18392C5.14087 11.6417 7.91347 14.4447 11.3336 14.4447Z" 
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M20.9678 24.0769C19.5098 20.0278 15.7026 17.3329 11.4404 17.3329C7.17822 17.3329 3.37107 20.0278 1.91309 24.0769"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </span>
+              <!--link to login page--> <!--! have not made login page yet, when done pls remove this message-->
+              <a href="login_page.html" class="site-header_account-link-text">Login</a>
+            </li>
+          </ul>
+          <!--wishlist--> <!--! have not made wishlist page yet, or can use this to link to login page since customer may not login yet, when done pls remove this message-->
+          <a href="wishlist_page.html" class="wk-link wk-link-empty" title="View Wishlist" data-appmate>
+            <!--draw a heart-->
+            <div class="wk-icon wk-link_icon">
+              <svg class="wk-icon_svg" width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path vector-effect="non-scaling-stroke" 
+                d="M32.012,59.616c-1.119-.521-2.365-1.141-3.707-1.859a79.264,79.264,0,0,1-11.694-7.614C6.316,42,.266,32.6.254,22.076,0.244,12.358,7.871,4.506,17.232,4.5a16.661,16.661,0,0,1,11.891,4.99l2.837,2.889,2.827-2.9a16.639,16.639,0,0,1,11.874-5.02h0c9.368-.01,17.008,7.815,17.021,17.539,0.015,10.533-6.022,19.96-16.312,28.128a79.314,79.314,0,0,1-11.661,7.63C34.369,58.472,33.127,59.094,32.012,59.616Z"></path>
+              </svg>
+            </div>
+            <span class="wk-link_label">Wishlist</span>
+            <span class="wk-link_account">0</span>
+          </a>
+          <!--customer cart--> <!--! cart page have not made yet, when done pls remove this message-->
+          <div class="site-header-cart" data-appmate>
+            <a class="site-header-cart-button" href="cart_page.html">
+              <!--still working on this one (basicly an small icon above the cart icon to show how many items are currently in the cart)-->
+              <span class="site-header-cart-count" data-header-cart-count>
+
+              </span>
+              <!--draw cart icon-->
+              <span class="site-header-cart-icon site-header-cart-icon-svg">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">      
+                  <path fill-rule="evenodd" clip-rule="evenodd" 
+                  d="M1 0C0.447715 0 0 0.447715 0 1C0 1.55228 0.447715 2 1 2H1.33877H1.33883C1.61048 2.00005 2.00378 2.23945 2.10939 2.81599L2.10937 2.816L2.11046 2.82171L5.01743 18.1859C5.12011 18.7286 5.64325 19.0852 6.18591 18.9826C6.21078 18.9779 6.23526 18.9723 6.25933 18.9658C6.28646 18.968 6.31389 18.9692 6.34159 18.9692H18.8179H18.8181C19.0302 18.9691 19.2141 18.9765 19.4075 18.9842L19.4077 18.9842C19.5113 18.9884 19.6175 18.9926 19.7323 18.9959C20.0255 19.0043 20.3767 19.0061 20.7177 18.9406C21.08 18.871 21.4685 18.7189 21.8028 18.3961C22.1291 18.081 22.3266 17.6772 22.4479 17.2384C22.4569 17.2058 22.4642 17.1729 22.4699 17.1396L23.944 8.46865C24.2528 7.20993 23.2684 5.99987 21.9896 6H21.9894H4.74727L4.07666 2.45562L4.07608 2.4525C3.83133 1.12381 2.76159 8.49962e-05 1.33889 0H1.33883H1ZM5.12568 8L6.8227 16.9692H18.8178H18.8179C19.0686 16.9691 19.3257 16.9793 19.5406 16.9877L19.5413 16.9877C19.633 16.9913 19.7171 16.9947 19.7896 16.9967C20.0684 17.0047 20.2307 16.9976 20.3403 16.9766C20.3841 16.9681 20.4059 16.96 20.4151 16.9556C20.4247 16.9443 20.4639 16.8918 20.5077 16.7487L21.9794 8.09186C21.9842 8.06359 21.9902 8.03555 21.9974 8.0078C21.9941 8.00358 21.9908 8.00108 21.989 8H5.12568ZM20.416 16.9552C20.4195 16.9534 20.4208 16.9524 20.4205 16.9523C20.4204 16.9523 20.4199 16.9525 20.4191 16.953L20.416 16.9552ZM10.8666 22.4326C10.8666 23.2982 10.195 24 9.36658 24C8.53815 24 7.86658 23.2982 7.86658 22.4326C7.86658 21.567 8.53815 20.8653 9.36658 20.8653C10.195 20.8653 10.8666 21.567 10.8666 22.4326ZM18.0048 24C18.8332 24 19.5048 23.2982 19.5048 22.4326C19.5048 21.567 18.8332 20.8653 18.0048 20.8653C17.1763 20.8653 16.5048 21.567 16.5048 22.4326C16.5048 23.2982 17.1763 24 18.0048 24Z" 
+                  fill="currentColor">
+                </path>    
+                </svg>
+              </span>
+              <span class="visually-hidden">View cart</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+    </div>
   </header>
+
+
+
+
+
+  <!--site's body (main)-->
   <main>
     <section id="categories">
       <h2>Categories</h2>
