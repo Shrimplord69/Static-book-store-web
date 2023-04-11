@@ -105,30 +105,272 @@ body, h1, h2, h3, ul, li {
   }
 
   /*header section*/
+
   
-
-  /*navbar*/ /*!*/
-  .navbar ul {
-    display: flex;
-    list-style: none;
-    margin:  0;
-    padding: 0;
-    justify-content: center;
+  /*third nav bar*/
+  .navmenu__navmenu-depth-1__list-menus{
+    width: 1200px;
   }
 
-  .navbar ul li {
-    margin-right: 10px;
-  }
+  /*ladder system for menu*/
+  li.ets_mm_menu_item_li.menu-item > .menu-item-link,
+.ets_mm_search button.ets_mm_submit_search,
+.ets_mm_menu_cart .ets_mm_cart_link {
+    line-height: 40px;
+    min-height: 40px;
+}
 
-  .navbar ul li a {
-    display: flex;
-    color: #f8f8f8;
-    text-decoration: none;
-    margin: 20px;
-    padding: 10px;
-    text-align: center;
-  }
+.ets_mm_menu_item_li li.tab-item {
+    border-bottom: 1px solid #cccccc;
+}
+
+.ets_megamenu,
+.ets_megamenu.sticky-menu.sticky_fixed {
+  background-color: #ffffff;
+}
+
+.ets_mm_menu_item_li .menu-item-link {
+    font-family: Montserrat, sans-serif;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.ets_mm_menu_item_li .menu-item-header-title {
+    color: #000000;
+    fill: #000000;
+}
+
+@media (max-width: 767px) {
+    .ets_megamenu.mm-mobile .menu-item.has_subs .btn-toggle-item:after {
+        border-top-color: #000000;
+        border-right-color: #000000;
+    }
+}
+
+.ets_mm_menu_item_li .menu-item-link > .main-menu-item-text:after {
+    border-color: #000000;
+}
+
+.menu-item.open .menu-item-header-title {
+    color: #ffffff;
+    fill: #ffffff;
+    background-color: #4a90e2;
+}
+
+.main-menu-item-background-active .menu-item.open .menu-item-header-title:before {
+    background-color: #4a90e2;
+}
+
+.menu-item.open .menu-item-header-title .main-menu-item-text:after,
+.ets_mm_menu_item_li.menu-item.open .menu-item-link + .btn-toggle-item:after {
+    border-color: #ffffff;
+}
+
+.ets_mm_menu_item_li .tab-item > .ets-mm-tab-item-link {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #222222;
+    fill: #222222;
+    background-color: #ffffff;
+}
+
+.ets_mm_menu_item_li .tab-item.has-sub > .ets-mm-tab-item-link > .tab-menu-item-text:before,
+.ets_mm_menu_item_li .tab-item.has-sub > .ets-mm-tab-item-link + .btn-toggle-item:after {
+    border-color: #222222;
+}
+
+.ets_mm_menu_item_li .tab-item > .ets-mm-tab-item-link:hover,
+.ets_mm_menu_item_li .tab-item:hover > .ets-mm-tab-item-link,
+.ets_mm_menu_item_li .tab-item.open > .ets-mm-tab-item-link {
+    color: #ffffff;
+    fill: #ffffff;
+    background-color: #4a90e2;
+}
+
+.ets_mm_menu_item_li .tab-item:hover > .btn-toggle-item:hover,
+.ets_mm_menu_item_li .tab-item.open > .btn-toggle-item {
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+.ets_mm_menu_item_li .tab-item > .ets-mm-tab-item-link:hover > .tab-menu-item-text:before,
+.ets_mm_menu_item_li .tab-item.open > .ets-mm-tab-item-link > .tab-menu-item-text:before,
+.ets_mm_menu_item_li .tab-item.open > .ets-mm-tab-item-link + .btn-toggle-item:after {
+    border-color: #ffffff;
+}
+
+.ets_megamenu .submenu-item-heading {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #222222;
+}
+
+.ets_megamenu .submenu-item-heading:hover {
+    background-color: #cccccc;
+}
+
+.ets_megamenu .submenu-item-content,
+.ets_megamenu .submenu-item-content div,
+.ets_megamenu .submenu-item-content span,
+.ets_megamenu .submenu-item-content p{
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+.ets_megamenu .submenu-item-content a:hover{
+  color: #4a90e2;
+}
+
+.ets_mm_menu_item_li .block-product-item .product-title{
+  font-family: Montserrat;
+  font-size: 13px;
+}
+
+.ets_mm_menu_item_li .block-product-item .product-title :hover{
+  background-color: #cccccc;
+
+}
+
+.ets_mm_menu_item_li .block-product-item .product-price .price-compare,
+.ets_mm_menu_item_li .block-product-item .product-price .price-sell{
+  font-family: Montserrat;
+}
+
+.ets_mm_menu_item_li .block-product-item .product-price .price-compare{
+  font-size: 13px;
+}
+
+.ets_mm_menu_item_li .block-product-item .product-price .price-sell{
+  font-size: 13px;
+}
+
+.ets_mm_menu_item_li .block-contact-form button.btn.btn-primary:hover{
+  background-color: #cccccc;
+}
+
+/*Products section*/
+.list-tabs{
+  margin: 0px auto 0px -25px;
+  width: 1200px;
+  max-width: 100vw;
+}
+
+.tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub{
+  width: 250px;
+}
+
+
+/* products > comic books > comic books*/
+.list-columns__tab-columns__from-top{
+  width: calc(100% - 250px);
+  left: 250px;
+  min-height: 0px;
+}
+
+#ets-mm-block-116538 .block-content *{
+
+}
+
+/* products > comic books > Popular Character*/
+#ets-mm-block-370963 .block-content *{
+
+}
+
+/* products> comic book > (cont.)*/
+#ets-mm-block-164330 .block-content *{
+
+}
+
+/* products > Graphic novel*/
+.tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub{
+  width: 250px;
+}
+
+/*products > graphic novel > graphic novel*/
+.list-columns__tab-columns__from-top{
+  width: calc(100%-250px);
+  left: 250px;
+  min-height: 0px;
+}
+
+#ets-mm-block-968311 .block-content *{
+
+}
+
+/*products > graphic novels > genre*/
+#ets-mm-block-732146 .block-content *{
+
+}
+
+/* Products > Graphic Novels > Genre (cont.) */
+#ets-mm-block-382698 .block-content *{
+
+}
+
+/*Products > Graphic Novels > Young Reader*/
+#ets-mm-block-446878 .block-content *{
+
+}
+
+
+/*Products > Graphic Novels > Young Adult*/
+#ets-mm-block-146994 .block-content *{
+
+} 
+
+/*Products > Graphic Novels > Publisher*/
+#ets-mm-block-631162 .block-content *{
+
+}
+
+/*Products > Book*/
+.tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub{
+  width: 250px;
+}
+
+.list-columns__tab-columns__from-top{
+  width: calc(100%-250px);
+  left: 250px;
+  min-height: 0px;
+}
+
+/*Products > Books > Megazines*/
+#ets-mm-block-746812 .block-content *{
+
+}
+
+/*Products > Books > Books*/
+#ets-mm-block-712139 .block-content *{
+
+}
+
+/*Products > Manga*/
+.tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub{
+  width: 250px;
+}
+
+.list-columns__tab-columns__from-top{
+  width: calc(100%-250px);
+  left: 250px;
+  min-height: 0px;
+}
+
+/*Products > Manga > Manga*/
+#ets-mm-block-921627 .block-content *{
+
+}
+
+/*Products > Manga > Publishers*/
+#ets-mm-block-555010 .block-content *{
+
+}
+
+/*Products > Manga > Clearance*/
+#ets-mm-block-4993 .block-content *{
   
+}
+
   /* Main styles */
   main {
     padding: 20px;
