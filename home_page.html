@@ -19,7 +19,7 @@
         <div class="utility-bar_content-right" data-disclosure-item></div>
       </div>
     </section>
-    <!-- utility bar for mobile using hamburger icon model-->
+    <!-- utility bar for mobile -->
     <div class="utility-bar_mobile" data-utility-menu-mobile>
       <span class="utility-bar_mobile_border"></span>
       <div class="utility-bar_mobile-nav__utility-bar_mobile-nav-below">
@@ -63,223 +63,202 @@
       </ul>
     </nav>
   </header>-->
-  <!--latest nav bar (secondary nav bar)-->
+
+
+    <!--latest nav bar (secondary nav bar)-->
   <header class="site-header__site-header-nav-open" role="banner" data-site-header>
-    <div id="shopify-section-static-header" class="shopify-section__site-header-wrapper">
-      <div class="site-header-main" data-site-header-main data-site-header-sticky data-site-header-mobile-search-bar>
-        <button class="site-header-menu-toggle" data-menu-toggle>
-          <div class="site-header-menu-toggle-button" tabindex="-1">
-            <span class="toggle-icon-bar__toggle-icon-bar-top"></span>
-            <span class="toggle-icon-bar__toggle-icon-bar-middle"></span>
-            <span class="toggle-icon-bar__toggle-icon-bar-bottom"></span>
-            <span class="visually-hidden">Menu</span>
-          </div>
-        </button>
-        <div class="site-header-main-content__small-promo-enabled">
-          <div class="site-header-logo">
-            <a class="site-logo" href="home_page.html">
-              <img src=" 1x, 2x, 3x, 4x" class="site-logo-image"> <!--input img url into each nx-->
-            </a>
-          </div>
-          <div class="live-search" data-live-search>
-            <form class="live-search-form__form-fields-inline" action="/page/search-results-page" method="get" role="search" aria-label="Product" data-live-search-form>
-              <input type="hidden" name="type" value="product">
-              <div class="form-fields__no-label">
-                <input class="form-field-input__live-search-form-field snize-input-style" type="text" name="q" aria-label="Search" placeholder="What are you looking for ?" autocomplete="off" data-live-search-input>
-                <button class="live-search-takeover-cancel" type="submit" aria-label="Search" data-live-search-submit>Cancel</button>
-                <button class="live-search-button" type="submit" aria-label="Search" data-live-search-submit>
-                  <span class="search-icon__search-icon-inactive">
-                    <!--to draw the magnify glass icon for the live search bar-->
-                    <svg aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="23" height="24" fill="none" viewBox="0 0 23 24">
-                      <path d="M21 21L15.5 15.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-                      <circle cx="10" cy="9" r="8" stroke="currentColor" stroke-width="2"></circle>
-                    </svg>
-                  </span>
-                  <span class="search-icon__search-icon-active">
-                    <svg aria-hidden="true" focusable="false" role="presentation" width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
-                      <g fill-rule="nonzero" fill="currentColor">
-                        <path d="M13 26C5.82 26 0 20.18 0 13S5.82 0 13 0s13 5.82 13 13-5.82 13-13 13zm0-3.852a9.148 9.148 0 1 0 0-18.296 9.148 9.148 0 0 0 0 18.296z" opacity=".29"></path>
-                        <path d="M13 26c7.18 0 13-5.82 13-13a1.926 1.926 0 0 0-3.852 0A9.148 9.148 0 0 1 13 22.148 1.926 1.926 0 0 0 13 26z"></path>
-                      </g>
-                    </svg>
-                  </span>
-                </button>
-              </div>
-              <!--search fly down-->
-              <div class="search-flydown" data-live-search-flydown>
-                <div class="search-flydown-placeholder" data-live-search-placeholder>
-                  <div class="search-flydown-product-items">
-                    <a class="search-flydown-product search-flydown-product" href="home_page.html">
-                      <div class="search-flydown-product-text">
-                        <span class="search-flydown-product-title placeholder-content-text"></span>
-                        <span class="search-flydown-product-price placeholder-content-text"></span>
-                      </div>
-                    </a>
-                    <a class="search-flydown-product__search-flydown-product" href="home_page.html">
-                      <div class="search-flydown-product-text">
-                        <span class="search-flydown-product-title__placeholder-content-text"></span>
-                        <span class="search-flydown-product-price__placeholder-content-text"></span>
-                      </div>
-                    </a>
-                    <a class="search-flydown-product__search-flydown-product" href="home_page.html">
-                      <div class="search-flydown-product-text">
-                        <span class="search-flydown-product-title__placeholder-content-text"></span>
-                        <span class="search-flydown-product-price__placeholder-content-text"></span>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="search-flydown-result " data-live-search-result></div>
-              </div>
-            </form>
-          </div>
-          <!--a small location icon next to store address-->
-          <div class="small-promo">
-            <span class="small-promo-icon__small-promo-icon-svg">
-              <svg class="icon-pin" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="30" height="44" viewBox="0 0 30 44" fill="none">
-                <path d="M29.0211 14.9787C29.0211 22,8819 23.5296 27.4279 19.4142 31.8298C16.9502 34.466 14.9786 43.0638 14.9786 43.0638C14.9786 43.0638 13.0126 34.4717 10.5542 31,8429C6.4351 27.4429 0.936035 22.8894 0.936035 14.9787C0.936035 11.2544 2.41551 7.68263 5.049 5.0491407.68249 2,41565 11.2543 0.936172 14.9786 0.936172C18.7029 0.936172 22.2747 2.41565 24.90825.04914C27.5417 7.68263 29-0211 11.2544 29.0211 14.9787V14.9787Z"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                <path d="M9.36182 14.9787C9.36182 16.4684 9.95361 17.8972 11.007 18.9506C12.0604 20.0039 13.4891 20.5957 14.9788 20.5957C16.4686 20.5957 17.8973 20.0039 18.9507 18.9506C20.0041 17.8972 20.5959 16.4684 20.5959 14.9787C20.5959 13.489 20.0041 12.0603 18.9507 11.0969C17.8974 9.95349 16.4686 9.36169 14.9788 9.36169C13.4891 9.36169 12.0604 9.95349 11.007 11.0069C9.95861 12.0604 9.36182 13.489 9.36182 14.9787Z" 
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" strok-linejoin="round"></path>
-              </svg>
-            </span>
-            <!--store address-->
-            <div class="small-promo-content">
-              <div class="small-promo-content-desktop">
-                <p>dia chi store</p>
-                <p>Viet Nam D? W?</p>
-              </div>
+      <div id="shopify-section-static-header" class="shopify-section__site-header-wrapper">
+        <div class="site-header-main" data-site-header-main data-site-header-sticky data-site-header-mobile-search-bar>
+          <button class="site-header-menu-toggle" data-menu-toggle>
+            <div class="site-header-menu-toggle-button" tabindex="-1">
+              <span class="toggle-icon-bar__toggle-icon-bar-top"></span>
+              <span class="toggle-icon-bar__toggle-icon-bar-middle"></span>
+              <span class="toggle-icon-bar__toggle-icon-bar-bottom"></span>
+              <span class="visually-hidden">Menu</span>
             </div>
-          </div>
-        </div>
-        <!--site header right(contain login, wishlist, shoping cart)-->
-        <div class="site-header-right">
-          <ul class="site-header-action" data-header-actions>
-            <li class="site-header-action_account-link">
-              <!--draw account icon-->
-              <span class="site-header_account-icon">
-                <svg class="icon-account" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 26" fill="none">
-                  <path d="M11.3336 14.44447C14.7538 14.4447 17.5264 11.6417 17.5264 8.18392C17.5264 4.72616 14.7538 1.9231 11.3336 1.9231C7.91347 1.9231 5.14087 4.72616 5.14087 8.18392C5.14087 11.6417 7.91347 14.4447 11.3336 14.4447Z" 
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M20.9678 24.0769C19.5098 20.0278 15.7026 17.3329 11.4404 17.3329C7.17822 17.3329 3.37107 20.0278 1.91309 24.0769"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              </span>
-              <!--link to login page--> <!--! have not made login page yet, when done pls remove this message-->
-              <a href="login_page.html" class="site-header_account-link-text">Login</a>
-            </li>
-          </ul>
-          <!--wishlist--> <!--! have not made wishlist page yet, or can use this to link to login page since customer may not login yet, when done pls remove this message-->
-          <a href="wishlist_page.html" class="wk-link__wk-link-empty" title="View Wishlist" data-appmate>
-            <!--draw a heart-->
-            <div class="wk-icon__wk-link_icon">
-              <svg class="wk-icon_svg" width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path vector-effect="non-scaling-stroke" 
-                d="M32.012,59.616c-1.119-.521-2.365-1.141-3.707-1.859a79.264,79.264,0,0,1-11.694-7.614C6.316,42,.266,32.6.254,22.076,0.244,12.358,7.871,4.506,17.232,4.5a16.661,16.661,0,0,1,11.891,4.99l2.837,2.889,2.827-2.9a16.639,16.639,0,0,1,11.874-5.02h0c9.368-.01,17.008,7.815,17.021,17.539,0.015,10.533-6.022,19.96-16.312,28.128a79.314,79.314,0,0,1-11.661,7.63C34.369,58.472,33.127,59.094,32.012,59.616Z"></path>
-              </svg>
+          </button>
+          <div class="site-header-main-content__small-promo-enabled">
+            <!--logo-->
+            <div class="site-header-logo">
+              <a class="site-logo" href="home_page.html">
+                <img src=" 1x, 2x, 3x, 4x" class="site-logo-image"> <!--input img url into each nx-->
+              </a>
             </div>
-            <span class="wk-link_label">Wishlist</span>
-            <span class="wk-link_account">0</span>
-          </a>
-          <!--customer cart--> <!--! cart page have not made yet, when done pls remove this message-->
-          <div class="site-header-cart" data-appmate>
-            <a class="site-header-cart-button" href="cart_page.html">
-              <!--still working on this one (basicly an small icon above the cart icon to show how many items are currently in the cart)-->
-              <span class="site-header-cart-count" data-header-cart-count>
-
-              </span>
-              <!--draw cart icon-->
-              <span class="site-header-cart-icon__site-header-cart-icon-svg">
-                <svg width="25" height="24" viewBox="0 0 25 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">      
-                  <path fill-rule="evenodd" clip-rule="evenodd" 
-                  d="M1 0C0.447715 0 0 0.447715 0 1C0 1.55228 0.447715 2 1 2H1.33877H1.33883C1.61048 2.00005 2.00378 2.23945 2.10939 2.81599L2.10937 2.816L2.11046 2.82171L5.01743 18.1859C5.12011 18.7286 5.64325 19.0852 6.18591 18.9826C6.21078 18.9779 6.23526 18.9723 6.25933 18.9658C6.28646 18.968 6.31389 18.9692 6.34159 18.9692H18.8179H18.8181C19.0302 18.9691 19.2141 18.9765 19.4075 18.9842L19.4077 18.9842C19.5113 18.9884 19.6175 18.9926 19.7323 18.9959C20.0255 19.0043 20.3767 19.0061 20.7177 18.9406C21.08 18.871 21.4685 18.7189 21.8028 18.3961C22.1291 18.081 22.3266 17.6772 22.4479 17.2384C22.4569 17.2058 22.4642 17.1729 22.4699 17.1396L23.944 8.46865C24.2528 7.20993 23.2684 5.99987 21.9896 6H21.9894H4.74727L4.07666 2.45562L4.07608 2.4525C3.83133 1.12381 2.76159 8.49962e-05 1.33889 0H1.33883H1ZM5.12568 8L6.8227 16.9692H18.8178H18.8179C19.0686 16.9691 19.3257 16.9793 19.5406 16.9877L19.5413 16.9877C19.633 16.9913 19.7171 16.9947 19.7896 16.9967C20.0684 17.0047 20.2307 16.9976 20.3403 16.9766C20.3841 16.9681 20.4059 16.96 20.4151 16.9556C20.4247 16.9443 20.4639 16.8918 20.5077 16.7487L21.9794 8.09186C21.9842 8.06359 21.9902 8.03555 21.9974 8.0078C21.9941 8.00358 21.9908 8.00108 21.989 8H5.12568ZM20.416 16.9552C20.4195 16.9534 20.4208 16.9524 20.4205 16.9523C20.4204 16.9523 20.4199 16.9525 20.4191 16.953L20.416 16.9552ZM10.8666 22.4326C10.8666 23.2982 10.195 24 9.36658 24C8.53815 24 7.86658 23.2982 7.86658 22.4326C7.86658 21.567 8.53815 20.8653 9.36658 20.8653C10.195 20.8653 10.8666 21.567 10.8666 22.4326ZM18.0048 24C18.8332 24 19.5048 23.2982 19.5048 22.4326C19.5048 21.567 18.8332 20.8653 18.0048 20.8653C17.1763 20.8653 16.5048 21.567 16.5048 22.4326C16.5048 23.2982 17.1763 24 18.0048 24Z" 
-                  fill="currentColor">
-                </path>    
-                </svg>
-              </span>
-              <span class="visually-hidden">View cart</span>
-            </a>
-          </div>
-        </div>
-
-      </div>
-      <!-- third nav bar-->
-      <div class="site-navigation-wrapper__site-navigation-has-actions" data-site-navigation id="site-header-nav">
-        <nav class="site-navigation__ets_megamenu__sticky-menu__hide-stiky-menu-on-mobile__sticky-menu-center__main-menu-item-background-active__transition_menu_default__transition_mobile_default" aria-label="Main">
-          <ul class="navmenu__navmenu-depth-1__list-menus" data-navmenu aria-label="Main menu">
-            <li class="navmenu-item__navmenu-basic_item__navmenu-id-home__ets_mm_item_disabled">
-              <a class="navmenu-link__navmenu-link-depth-1" href="category.html">Home</a> <!--inspired by csmoney filtering system go check that out-->
-            </li>
-            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-            <!--third nav bar menu for mobile-->
-            <li class="ets-item-header-mobile" style>
-              <span class="m_left">
-                <!--create burger icon for menu-->
-                <i class="ets_svg__icon_bars">
-                  <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z">
-                    </path>
-                  </svg>
-                </i>
-                "Menu"
-              </span>
-              <!--create arrow's head left for section-->
-              <span class="ets-close-mobile__js-est-mm-close-mobile">
-                <i class="ets_svg__icon_angle_left">
-                  <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z">   
-                    </path>
-                  </svg>
-                </i>
-                "Back"
-                <!--create arrow's head right for section-->
-                <i class="ets_svg__icon_angle_right">
-                  <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
-                    </path>
-                  </svg>
-                </i>
-              </span>
-            </li>
-            <li class="menu-item__menu-item-header__js-ets-mm-menu-item-hover-open__ets_mm_menu_item_li__is_menu_tabs__has_subs__static-open-vertical-first-menu__align-auto__open-vertical-first-tab-menu" style>
-              <div class="menu-item-header-title">
-                <span id="ets-mm-menu-item-link-m0" class="menu-item-link__js-ets-mm-inner-text-menu-item__ets-text-bold">
-                  <span class="main-menu-item-text" style>
-                    <i class="menu-icon__menu-icon-font__menu-item-icon__icon-svg__bars">
-                      <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z">
-                        </path>
+            <div class="live-search" data-live-search>
+              <form class="live-search-form__form-fields-inline" action="/page/search-results-page" method="get" role="search" aria-label="Product" data-live-search-form>
+                <input type="hidden" name="type" value="product">
+                <div class="form-fields__no-label">
+                  <input class="form-field-input__live-search-form-field snize-input-style" type="text" name="q" aria-label="Search" placeholder="What are you looking for ?" autocomplete="off" data-live-search-input>
+                  <button class="live-search-takeover-cancel" type="submit" aria-label="Search" data-live-search-submit>Cancel</button>
+                  <button class="live-search-button" type="submit" aria-label="Search" data-live-search-submit>
+                    <span class="search-icon__search-icon-inactive">
+                      <!--to draw the magnify glass icon for the live search bar-->
+                      <svg aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="23" height="24" fill="none" viewBox="0 0 23 24">
+                        <path d="M21 21L15.5 15.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                        <circle cx="10" cy="9" r="8" stroke="currentColor" stroke-width="2"></circle>
                       </svg>
-                    </i>
-                    "Products"
-                  </span>
+                    </span>
+                    <span class="search-icon__search-icon-active">
+                      <svg aria-hidden="true" focusable="false" role="presentation" width="26" height="26" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+                        <g fill-rule="nonzero" fill="currentColor">
+                          <path d="M13 26C5.82 26 0 20.18 0 13S5.82 0 13 0s13 5.82 13 13-5.82 13-13 13zm0-3.852a9.148 9.148 0 1 0 0-18.296 9.148 9.148 0 0 0 0 18.296z" opacity=".29"></path>
+                          <path d="M13 26c7.18 0 13-5.82 13-13a1.926 1.926 0 0 0-3.852 0A9.148 9.148 0 0 1 13 22.148 1.926 1.926 0 0 0 13 26z"></path>
+                        </g>
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+                <!--search fly down-->
+                <div class="search-flydown" data-live-search-flydown>
+                  <div class="search-flydown-placeholder" data-live-search-placeholder>
+                    <div class="search-flydown-product-items">
+                      <a class="search-flydown-product search-flydown-product" href="home_page.html">
+                        <div class="search-flydown-product-text">
+                          <span class="search-flydown-product-title placeholder-content-text"></span>
+                          <span class="search-flydown-product-price placeholder-content-text"></span>
+                        </div>
+                      </a>
+                      <a class="search-flydown-product__search-flydown-product" href="home_page.html">
+                        <div class="search-flydown-product-text">
+                          <span class="search-flydown-product-title__placeholder-content-text"></span>
+                          <span class="search-flydown-product-price__placeholder-content-text"></span>
+                        </div>
+                      </a>
+                      <a class="search-flydown-product__search-flydown-product" href="home_page.html">
+                        <div class="search-flydown-product-text">
+                          <span class="search-flydown-product-title__placeholder-content-text"></span>
+                          <span class="search-flydown-product-price__placeholder-content-text"></span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="search-flydown-result " data-live-search-result></div>
+                </div>
+              </form>
+            </div>
+            <!--a small location icon next to store address-->
+            <div class="small-promo">
+              <span class="small-promo-icon__small-promo-icon-svg">
+                <svg class="icon-pin" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="30" height="44" viewBox="0 0 30 44" fill="none">
+                  <path d="M29.0211 14.9787C29.0211 22,8819 23.5296 27.4279 19.4142 31.8298C16.9502 34.466 14.9786 43.0638 14.9786 43.0638C14.9786 43.0638 13.0126 34.4717 10.5542 31,8429C6.4351 27.4429 0.936035 22.8894 0.936035 14.9787C0.936035 11.2544 2.41551 7.68263 5.049 5.0491407.68249 2,41565 11.2543 0.936172 14.9786 0.936172C18.7029 0.936172 22.2747 2.41565 24.90825.04914C27.5417 7.68263 29-0211 11.2544 29.0211 14.9787V14.9787Z"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M9.36182 14.9787C9.36182 16.4684 9.95361 17.8972 11.007 18.9506C12.0604 20.0039 13.4891 20.5957 14.9788 20.5957C16.4686 20.5957 17.8973 20.0039 18.9507 18.9506C20.0041 17.8972 20.5959 16.4684 20.5959 14.9787C20.5959 13.489 20.0041 12.0603 18.9507 11.0969C17.8974 9.95349 16.4686 9.36169 14.9788 9.36169C13.4891 9.36169 12.0604 9.95349 11.007 11.0069C9.95861 12.0604 9.36182 13.489 9.36182 14.9787Z" 
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" strok-linejoin="round"></path>
+                </svg>
+              </span>
+              <!--store address-->
+              <div class="small-promo-content">
+                <div class="small-promo-content-desktop">
+                  <p>dia chi store</p>
+                  <p>Viet Nam D? W?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--site header right(contain login, wishlist, shoping cart)-->
+          <div class="site-header-right">
+            <ul class="site-header-action" data-header-actions>
+              <li class="site-header-action_account-link">
+                <!--draw account icon-->
+                <span class="site-header_account-icon">
+                  <svg class="icon-account" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 26" fill="none">
+                    <path d="M11.3336 14.44447C14.7538 14.4447 17.5264 11.6417 17.5264 8.18392C17.5264 4.72616 14.7538 1.9231 11.3336 1.9231C7.91347 1.9231 5.14087 4.72616 5.14087 8.18392C5.14087 11.6417 7.91347 14.4447 11.3336 14.4447Z" 
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20.9678 24.0769C19.5098 20.0278 15.7026 17.3329 11.4404 17.3329C7.17822 17.3329 3.37107 20.0278 1.91309 24.0769"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
                 </span>
-                <span class="btn-toggle-item__js-ets-mm-btn-toggle-item">
-                  <i class="ets_svg">
+                <!--link to login page--> <!--! have not made login page yet, when done pls remove this message-->
+                <a href="login_page.html" class="site-header_account-link-text">Login</a>
+              </li>
+            </ul>
+            <!--wishlist--> <!--! have not made wishlist page yet, or can use this to link to login page since customer may not login yet, when done pls remove this message-->
+            <a href="wishlist_page.html" class="wk-link__wk-link-empty" title="View Wishlist" data-appmate>
+              <!--draw a heart-->
+              <div class="wk-icon__wk-link_icon">
+                <svg class="wk-icon_svg" width="100%" height="100%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path vector-effect="non-scaling-stroke" 
+                  d="M32.012,59.616c-1.119-.521-2.365-1.141-3.707-1.859a79.264,79.264,0,0,1-11.694-7.614C6.316,42,.266,32.6.254,22.076,0.244,12.358,7.871,4.506,17.232,4.5a16.661,16.661,0,0,1,11.891,4.99l2.837,2.889,2.827-2.9a16.639,16.639,0,0,1,11.874-5.02h0c9.368-.01,17.008,7.815,17.021,17.539,0.015,10.533-6.022,19.96-16.312,28.128a79.314,79.314,0,0,1-11.661,7.63C34.369,58.472,33.127,59.094,32.012,59.616Z"></path>
+                </svg>
+              </div>
+              <span class="wk-link_label">Wishlist</span>
+              <span class="wk-link_account">0</span>
+            </a>
+            <!--customer cart--> <!--! cart page have not made yet, when done pls remove this message-->
+            <div class="site-header-cart" data-appmate>
+              <a class="site-header-cart-button" href="cart_page.html">
+                <!--still working on this one (basicly an small icon above the cart icon to show how many items are currently in the cart)-->
+                <span class="site-header-cart-count" data-header-cart-count>
+
+                </span>
+                <!--draw cart icon-->
+                <span class="site-header-cart-icon__site-header-cart-icon-svg">
+                  <svg width="25" height="24" viewBox="0 0 25 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">      
+                    <path fill-rule="evenodd" clip-rule="evenodd" 
+                    d="M1 0C0.447715 0 0 0.447715 0 1C0 1.55228 0.447715 2 1 2H1.33877H1.33883C1.61048 2.00005 2.00378 2.23945 2.10939 2.81599L2.10937 2.816L2.11046 2.82171L5.01743 18.1859C5.12011 18.7286 5.64325 19.0852 6.18591 18.9826C6.21078 18.9779 6.23526 18.9723 6.25933 18.9658C6.28646 18.968 6.31389 18.9692 6.34159 18.9692H18.8179H18.8181C19.0302 18.9691 19.2141 18.9765 19.4075 18.9842L19.4077 18.9842C19.5113 18.9884 19.6175 18.9926 19.7323 18.9959C20.0255 19.0043 20.3767 19.0061 20.7177 18.9406C21.08 18.871 21.4685 18.7189 21.8028 18.3961C22.1291 18.081 22.3266 17.6772 22.4479 17.2384C22.4569 17.2058 22.4642 17.1729 22.4699 17.1396L23.944 8.46865C24.2528 7.20993 23.2684 5.99987 21.9896 6H21.9894H4.74727L4.07666 2.45562L4.07608 2.4525C3.83133 1.12381 2.76159 8.49962e-05 1.33889 0H1.33883H1ZM5.12568 8L6.8227 16.9692H18.8178H18.8179C19.0686 16.9691 19.3257 16.9793 19.5406 16.9877L19.5413 16.9877C19.633 16.9913 19.7171 16.9947 19.7896 16.9967C20.0684 17.0047 20.2307 16.9976 20.3403 16.9766C20.3841 16.9681 20.4059 16.96 20.4151 16.9556C20.4247 16.9443 20.4639 16.8918 20.5077 16.7487L21.9794 8.09186C21.9842 8.06359 21.9902 8.03555 21.9974 8.0078C21.9941 8.00358 21.9908 8.00108 21.989 8H5.12568ZM20.416 16.9552C20.4195 16.9534 20.4208 16.9524 20.4205 16.9523C20.4204 16.9523 20.4199 16.9525 20.4191 16.953L20.416 16.9552ZM10.8666 22.4326C10.8666 23.2982 10.195 24 9.36658 24C8.53815 24 7.86658 23.2982 7.86658 22.4326C7.86658 21.567 8.53815 20.8653 9.36658 20.8653C10.195 20.8653 10.8666 21.567 10.8666 22.4326ZM18.0048 24C18.8332 24 19.5048 23.2982 19.5048 22.4326C19.5048 21.567 18.8332 20.8653 18.0048 20.8653C17.1763 20.8653 16.5048 21.567 16.5048 22.4326C16.5048 23.2982 17.1763 24 18.0048 24Z" 
+                    fill="currentColor">
+                  </path>    
+                  </svg>
+                </span>
+                <span class="visually-hidden">View cart</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <!-- third nav bar-->
+        <div class="site-navigation-wrapper__site-navigation-has-actions" data-site-navigation id="site-header-nav">
+          <nav class="site-navigation__ets_megamenu__sticky-menu__hide-stiky-menu-on-mobile__sticky-menu-center__main-menu-item-background-active__transition_menu_default__transition_mobile_default" aria-label="Main">
+            <ul class="navmenu__navmenu-depth-1__list-menus" data-navmenu aria-label="Main menu">
+              <li class="navmenu-item__navmenu-basic_item__navmenu-id-home__ets_mm_item_disabled">
+                <a class="navmenu-link__navmenu-link-depth-1" href="category.html">Home</a> <!--inspired by csmoney filtering system go check that out-->
+              </li>
+              <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+              <!--third nav bar menu for mobile-->
+              <li class="ets-item-header-mobile" style>
+                <span class="m_left">
+                  <!--create burger icon for menu-->
+                  <i class="ets_svg__icon_bars">
+                    <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z">
+                      </path>
+                    </svg>
+                  </i>
+                  "Menu"
+                </span>
+                <!--create arrow's head left for section-->
+                <span class="ets-close-mobile__js-est-mm-close-mobile">
+                  <i class="ets_svg__icon_angle_left">
+                    <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1203 544q0 13-10 23l-393 393 393 393q10 10 10 23t-10 23l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23z">   
+                      </path>
+                    </svg>
+                  </i>
+                  "Back"
+                  <!--create arrow's head right for section-->
+                  <i class="ets_svg__icon_angle_right">
                     <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                       <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
                       </path>
                     </svg>
                   </i>
                 </span>
-              </div>
+              </li>
               <!--Products Section-->
-              <ul class="list-tabs" data-width="1200">
-                <li class="tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub">
-                  <!--Comic Books-->
-                  <span class="ets-mm-tab-item-link__ets-text-bold" id="ets-mm-tab-item-link-m0_t0" style>
-                    <span class="tab-menu-item-text" style>
-                      <i class="tab-icon__tab-icon-font__icon-svg__comment-o">
+              <li class="menu-item__menu-item-header__js-ets-mm-menu-item-hover-open__ets_mm_menu_item_li__is_menu_tabs__has_subs__static-open-vertical-first-menu__align-auto__open-vertical-first-tab-menu" style>
+                <div class="menu-item-header-title">
+                  <span id="ets-mm-menu-item-link-m0" class="menu-item-link__js-ets-mm-inner-text-menu-item__ets-text-bold">
+                    <span class="main-menu-item-text" style>
+                      <i class="menu-icon__menu-icon-font__menu-item-icon__icon-svg__bars">
                         <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M896 384q-204 0-381.5 69.5t-282 187.5-104.5 255q0 112 71.5 213.5t201.5 175.5l87 50-27 96q-24 91-70 172 152-63 275-171l43-38 57 6q69 8 130 8 204 0 381.5-69.5t282-187.5 104.5-255-104.5-255-282-187.5-381.5-69.5zm896 512q0 174-120 321.5t-326 233-450 85.5q-70 0-145-8-198 175-460 242-49 14-114 22h-5q-15 0-27-10.5t-16-27.5v-1q-3-4-.5-12t2-10 4.5-9.5l6-9 7-8.5 8-9q7-8 31-34.5t34.5-38 31-39.5 32.5-51 27-59 26-76q-157-89-247.5-220t-90.5-281q0-174 120-321.5t326-233 450-85.5 450 85.5 326 233 120 321.5z">
+                          <path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z">
                           </path>
-                        </svg> 
+                        </svg>
                       </i>
-                      "Comic Books"
+                      "Products"
                     </span>
                   </span>
-                  <!--comic Books's section-->
-                  <span class="bth-toggle-item__js-ets-mm-btn-toggle-item_tab">
+                  <span class="btn-toggle-item__js-ets-mm-btn-toggle-item">
                     <i class="ets_svg">
                       <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
@@ -287,597 +266,753 @@
                       </svg>
                     </i>
                   </span>
-                  <!---->
-                  <ul class="list-columns__tab-columns__from-top">
-                    <li class="menu_header_title_sub">
-                      <span class="back_to_item__js-ets-mm-back-item">
-                        <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M1792 800v192q0 14-9 23t-23 9h-1248v224q0 21-19 29t-35-5l-384-350q-10-10-10-23 0-14 10-24l384-354q16-14 35-6 19 9 19 29v224h1248q14 0 23 9t9 23z">   
-                          </path>
-                        </svg>
+                </div>
+                <!---->
+                <ul class="list-tabs" data-width="1200">
+                  <li class="tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub">
+                    <!--Comic Books-->
+                    <span class="ets-mm-tab-item-link__ets-text-bold" id="ets-mm-tab-item-link-m0_t0" style>
+                      <span class="tab-menu-item-text" style>
+                        <i class="tab-icon__tab-icon-font__icon-svg__comment-o">
+                          <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M896 384q-204 0-381.5 69.5t-282 187.5-104.5 255q0 112 71.5 213.5t201.5 175.5l87 50-27 96q-24 91-70 172 152-63 275-171l43-38 57 6q69 8 130 8 204 0 381.5-69.5t282-187.5 104.5-255-104.5-255-282-187.5-381.5-69.5zm896 512q0 174-120 321.5t-326 233-450 85.5q-70 0-145-8-198 175-460 242-49 14-114 22h-5q-15 0-27-10.5t-16-27.5v-1q-3-4-.5-12t2-10 4.5-9.5l6-9 7-8.5 8-9q7-8 31-34.5t34.5-38 31-39.5 32.5-51 27-59 26-76q-157-89-247.5-220t-90.5-281q0-174 120-321.5t326-233 450-85.5 450 85.5 326 233 120 321.5z">
+                            </path>
+                          </svg> 
+                        </i>
                         "Comic Books"
                       </span>
-                      <!---->
-                      <span class="close_menu__js-ets-mm-close-sub-menu">
-                        <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z">
+                    </span>
+                    <!--comic Books's section-->
+                    <span class="bth-toggle-item__js-ets-mm-btn-toggle-item_tab">
+                      <i class="ets_svg">
+                        <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
                           </path>
                         </svg>
+                      </i>
+                    </span>
+                    <!---->
+                    <ul class="list-columns__tab-columns__from-top">
+                      <li class="menu_header_title_sub">
+                        <span class="back_to_item__js-ets-mm-back-item">
+                          <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1792 800v192q0 14-9 23t-23 9h-1248v224q0 21-19 29t-35-5l-384-350q-10-10-10-23 0-14 10-24l384-354q16-14 35-6 19 9 19 29v224h1248q14 0 23 9t9 23z">   
+                            </path>
+                          </svg>
+                          "Comic Books"
+                        </span>
+                        <!---->
+                        <span class="close_menu__js-ets-mm-close-sub-menu">
+                          <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z">
+                            </path>
+                          </svg>
+                        </span>
+                      </li>
+                      <!-- Products > Comic Book > Comic Book-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-116538">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Comic Books</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">All Comics</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Annual</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Comic Sets</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">One-shot</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Warehouse Find</a>
+                                  </li>
+                                  <!--Can add more categories for comic books here! -->
+                                
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <!--Products > Comic Book > Popular Characters-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-370963">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_diviser__ets-text-bold">Popular Characters</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Batman</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Rick Grimes</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Scott Pilgrim</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Chainsaw man</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Hunter</a>
+                                  </li>
+                                  <!--Can add more categories for Popular characters here! -->
+
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <!--Products > Comic Book > (cont.)-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-164330">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">(cont.)</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Saga</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">The Walking Dead</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Scott Pilgrim vs The World</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Chainsaw man</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Bloodborne</a>
+                                  </li>
+                                  <!--Can add more categories for (cont.) here! -->
+
+                                </ul>
+                              </div>
+                            </div>    
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3"></li>
+                    </ul>
+                  </li>
+                  <!--Products > Graphic novel-->
+                  <li class="tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub">
+                    <span class="ets-mm-tab-item-link__ets-text-bold" id="ets-mm-tab-item-link-m0_t2" style>
+                      <span class="tab-menu-item-text" style>
+                        <i class="tab-icon__tab-icon-font__icon-svg__book">
+                          <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1703 478q40 57 18 129l-275 906q-19 64-76.5 107.5t-122.5 43.5h-923q-77 0-148.5-53.5t-99.5-131.5q-24-67-2-127 0-4 3-27t4-37q1-8-3-21.5t-3-19.5q2-11 8-21t16.5-23.5 16.5-23.5q23-38 45-91.5t30-91.5q3-10 .5-30t-.5-28q3-11 17-28t17-23q21-36 42-92t25-90q1-9-2.5-32t.5-28q4-13 22-30.5t22-22.5q19-26 42.5-84.5t27.5-96.5q1-8-3-25.5t-2-26.5q2-8 9-18t18-23 17-21q8-12 16.5-30.5t15-35 16-36 19.5-32 26.5-23.5 36-11.5 47.5 5.5l-1 3q38-9 51-9h761q74 0 114 56t18 130l-274 906q-36 119-71.5 153.5t-128.5 34.5h-869q-27 0-38 15-11 16-1 43 24 70 144 70h923q29 0 56-15.5t35-41.5l300-987q7-22 5-57 38 15 59 43zm-1064 2q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5zm-83 256q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5z">
+                            </path>
+                          </svg>
+                        </i>
+                        "Graphic Novels"
                       </span>
-                    </li>
-                    <!-- Products > Comic Book > Comic Book-->
-                    <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                      <ul class="list-blocks__menu-column-blocks">
-                        <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-116538">
-                          <div class="block-wrapper">
-                            <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Comic Books</span>
-                            <div class="block-content__submenu-item-content">
-                              <ul class="block-collection">
-                                <!---->
-                                <li>
-                                  <a href="category.html">All Comics</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Annual</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Comic Sets</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">One-shot</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Warehouse Find</a>
-                                </li>
-                                <!--Can add more categories for comic books here! -->
-                              
-                              </ul>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                    <!--Products > Comic Book > Popular Characters-->
-                    <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                      <ul class="list-blocks__menu-column-blocks">
-                        <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-370963">
-                          <div class="block-wrapper">
-                            <span class="block-title__submenu-item-heading__ets_enable_heading_diviser__ets-text-bold">Popular Characters</span>
-                            <div class="block-content__submenu-item-content">
-                              <ul class="block-collection">
-                                <!---->
-                                <li>
-                                  <a href="category.html">Batman</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Rick Grimes</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Scott Pilgrim</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Chainsaw man</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Hunter</a>
-                                </li>
-                                <!--Can add more categories for Popular characters here! -->
-
-                              </ul>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </li>
-                    <!--Products > Comic Book > (cont.)-->
-                    <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                      <ul class="list-blocks__menu-column-blocks">
-                        <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-164330">
-                          <div class="block-wrapper">
-                            <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">(cont.)</span>
-                            <div class="block-content__submenu-item-content">
-                              <ul class="block-collection">
-                                <!---->
-                                <li>
-                                  <a href="category.html">Saga</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">The Walking Dead</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Scott Pilgrim vs The World</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Chainsaw man</a>
-                                </li>
-                                <!---->
-                                <li>
-                                  <a href="category.html">Bloodborne</a>
-                                </li>
-                                <!--Can add more categories for (cont.) here! -->
-
-                              </ul>
-                            </div>
-                          </div>    
-                        </li>
-                      </ul>
-                    </li>
-                    <!--Products > Graphic novel-->
-                    <li class="tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub">
-                      <span class="ets-mm-tab-item-link__ets-text-bold" id="ets-mm-tab-item-link-m0_t2" style>
-                        <span class="tab-menu-item-text" style>
-                          <i class="tab-icon__tab-icon-font__icon-svg__book">
-                            <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1703 478q40 57 18 129l-275 906q-19 64-76.5 107.5t-122.5 43.5h-923q-77 0-148.5-53.5t-99.5-131.5q-24-67-2-127 0-4 3-27t4-37q1-8-3-21.5t-3-19.5q2-11 8-21t16.5-23.5 16.5-23.5q23-38 45-91.5t30-91.5q3-10 .5-30t-.5-28q3-11 17-28t17-23q21-36 42-92t25-90q1-9-2.5-32t.5-28q4-13 22-30.5t22-22.5q19-26 42.5-84.5t27.5-96.5q1-8-3-25.5t-2-26.5q2-8 9-18t18-23 17-21q8-12 16.5-30.5t15-35 16-36 19.5-32 26.5-23.5 36-11.5 47.5 5.5l-1 3q38-9 51-9h761q74 0 114 56t18 130l-274 906q-36 119-71.5 153.5t-128.5 34.5h-869q-27 0-38 15-11 16-1 43 24 70 144 70h923q29 0 56-15.5t35-41.5l300-987q7-22 5-57 38 15 59 43zm-1064 2q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5zm-83 256q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5z">
-                              </path>
-                            </svg>
-                          </i>
+                    </span>
+                    <span class="btn-toggle-item__js-ets-mm-btn-toggle-item_tab">
+                      <i class="ets_svg">
+                        <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
+                          </path>
+                        </svg>
+                      </i>
+                    </span>
+                    <!--Products > Graphic Novels > Graphic Novels (Menu)-->
+                    <ul class="list-columns__tab-columns__from-top">
+                      <li class="menu_header_title_sub">
+                        <span class="back_to_item__js-ets-mm-back-item">
+                          <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1792 800v192q0 14-9 23t-23 9h-1248v224q0 21-19 29t-35-5l-384-350q-10-10-10-23 0-14 10-24l384-354q16-14 35-6 19 9 19 29v224h1248q14 0 23 9t9 23z">
+                            </path>
+                          </svg>
                           "Graphic Novels"
                         </span>
-                      </span>
-                      <span class="btn-toggle-item__js-ets-mm-btn-toggle-item_tab">
-                        <i class="ets_svg">
-                          <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
+                        <span class="close_menu__js-ets-mm-close-sub-menu">
+                          <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"> 
+                            </path>
+                          </svg>
+                        </span>
+                      </li>
+                      <!--Products > Graphic Novels > Graphic Novels & Genre-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <!--Products > Graphic Novels > Graphic Novels-->
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-968311">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Graphic Novels</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">All Graphic Novels</a>
+                                  <!--Can add more categories for Graphic novels here! -->
+
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                          <!-- Products > Graphic Novels > Genre-->
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-732146">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Genre</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Action/Adventure</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Biographies</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Crime</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Drama</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Fantasy</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Comedy</a>
+                                  </li>
+                                  <!--Can add more categories for genre here! -->
+
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <!-- Products > Graphic Novels > Genre (cont.)-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-382698">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Genre (cont.)</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Horror</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Indie</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Mystery</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Romance</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Sci-Fi</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Superheroes</a>
+                                  </li>
+                                  <!--Can add more categories for genre here! -->
+
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <!--Products > Graphic Novels > Young Reader & Young Adult -->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <!--Products > Graphic Novels > Young Reader -->
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-446878">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Young Reader</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">All Young Reader</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Little Golden Books</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Marvel Verse</a>
+                                  </li>
+                                  <!--Can add more categories for genre here! -->
+
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                          <!--Products > Graphic Novels > Young Adult -->
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-146994">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Young Adult</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">All Young Adult</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Avatar Last Airbender</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">DC Ink</a>
+                                  </li>
+                                  <!--Can add more categories for genre here! -->
+                                
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <!--Products > Graphic Novels > Publisher -->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-631162">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Publisher</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Marvel Comics</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">DC Comics</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Image Comics</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Dark Horse Comics</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Boom Studio</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">IDW Publishing</a>
+                                  </li>    
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">FREW Publication</a>
+                                  </li>                          
+                                  <!--Can add more categories for Publishers here! -->
+
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <!--Products > Book-->
+                  <li class="tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub">
+                    <span class="ets-mm-tab-item-link__ets-text-bold" id="ets-mm-tab-item-link-m0_t3" style>
+                      <span class="tab-menu-item-text" style>
+                        <i class="tab-icon__tab-icon-font__icon-svg__book">
+                          <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1703 478q40 57 18 129l-275 906q-19 64-76.5 107.5t-122.5 43.5h-923q-77 0-148.5-53.5t-99.5-131.5q-24-67-2-127 0-4 3-27t4-37q1-8-3-21.5t-3-19.5q2-11 8-21t16.5-23.5 16.5-23.5q23-38 45-91.5t30-91.5q3-10 .5-30t-.5-28q3-11 17-28t17-23q21-36 42-92t25-90q1-9-2.5-32t.5-28q4-13 22-30.5t22-22.5q19-26 42.5-84.5t27.5-96.5q1-8-3-25.5t-2-26.5q2-8 9-18t18-23 17-21q8-12 16.5-30.5t15-35 16-36 19.5-32 26.5-23.5 36-11.5 47.5 5.5l-1 3q38-9 51-9h761q74 0 114 56t18 130l-274 906q-36 119-71.5 153.5t-128.5 34.5h-869q-27 0-38 15-11 16-1 43 24 70 144 70h923q29 0 56-15.5t35-41.5l300-987q7-22 5-57 38 15 59 43zm-1064 2q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5zm-83 256q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5z">
                             </path>
                           </svg>
                         </i>
+                        "Books"
                       </span>
-                      <!--Products > Graphic Novels > Graphic Novels-->
-                      <ul class="list-columns__tab-columns__from-top">
-                        <li class="menu_header_title_sub">
-                          <span class="back_to_item__js-ets-mm-back-item">
-                            <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1792 800v192q0 14-9 23t-23 9h-1248v224q0 21-19 29t-35-5l-384-350q-10-10-10-23 0-14 10-24l384-354q16-14 35-6 19 9 19 29v224h1248q14 0 23 9t9 23z">
-                              </path>
-                            </svg>
-                            "Graphic Novels"
-                          </span>
-                          <span class="close_menu__js-ets-mm-close-sub-menu">
-                            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"> 
-                              </path>
-                            </svg>
-                          </span>
-                        </li>
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                          <ul class="list-blocks__menu-column-blocks">
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-968311">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Graphic Novels</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                    <a href="category.html">All Graphic Novels</a>
-                                    <!--Can add more categories for Graphic novels here! -->
-
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </li>
-                            <!-- Products > Graphic Novels > Genre-->
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-732146">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Genre</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Action/Adventure</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Biographies</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Crime</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Drama</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Fantasy</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Comedy</a>
-                                    </li>
-                                    <!--Can add more categories for genre here! -->
-
-                                  </ul>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                        </li>
-                        <!-- Products > Graphic Novels > Genre (cont.)-->
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                          <ul class="list-blocks__menu-column-blocks">
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-382698">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Genre (cont.)</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Horror</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Indie</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Mystery</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Romance</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Sci-Fi</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Superheroes</a>
-                                    </li>
-                                    <!--Can add more categories for genre here! -->
-
-                                  </ul>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                        </li>
-                        <!--Products > Graphic Novels > Young Reader -->
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                          <ul class="list-blocks__menu-column-blocks">
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-446878">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Young Reader</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">All Young Reader</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Little Golden Books</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Marvel Verse</a>
-                                    </li>
-                                    <!--Can add more categories for genre here! -->
-
-                                  </ul>
-                                </div>
-                              </div>
-                            </li>
-                            <!--Products > Graphic Novels > Young Adult -->
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-146994">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Young Adult</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">All Young Adult</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Avatar Last Airbender</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">DC Ink</a>
-                                    </li>
-                                    <!--Can add more categories for genre here! -->
-                                  
-                                  </ul>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                        </li>
-                        <!--Products > Graphic Novels > Publisher -->
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                          <ul class="list-blocks__menu-column-blocks">
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-631162">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Publisher</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Marvel Comics</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">DC Comics</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Image Comics</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Dark Horse Comics</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Boom Studio</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">IDW Publishing</a>
-                                    </li>    
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">FREW Publication</a>
-                                    </li>                          
-                                    <!--Can add more categories for Publishers here! -->
-
-                                  </ul>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <!--Products > Book-->
-                    <li class="tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub">
-                      <span class="ets-mm-tab-item-link__ets-text-bold" id="ets-mm-tab-item-link-m0_t3" style>
-                        <span class="tab-menu-item-text" style>
-                          <i class="tab-icon__tab-icon-font__icon-svg__book">
-                            <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1703 478q40 57 18 129l-275 906q-19 64-76.5 107.5t-122.5 43.5h-923q-77 0-148.5-53.5t-99.5-131.5q-24-67-2-127 0-4 3-27t4-37q1-8-3-21.5t-3-19.5q2-11 8-21t16.5-23.5 16.5-23.5q23-38 45-91.5t30-91.5q3-10 .5-30t-.5-28q3-11 17-28t17-23q21-36 42-92t25-90q1-9-2.5-32t.5-28q4-13 22-30.5t22-22.5q19-26 42.5-84.5t27.5-96.5q1-8-3-25.5t-2-26.5q2-8 9-18t18-23 17-21q8-12 16.5-30.5t15-35 16-36 19.5-32 26.5-23.5 36-11.5 47.5 5.5l-1 3q38-9 51-9h761q74 0 114 56t18 130l-274 906q-36 119-71.5 153.5t-128.5 34.5h-869q-27 0-38 15-11 16-1 43 24 70 144 70h923q29 0 56-15.5t35-41.5l300-987q7-22 5-57 38 15 59 43zm-1064 2q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5zm-83 256q-4 13 2 22.5t20 9.5h608q13 0 25.5-9.5t16.5-22.5l21-64q4-13-2-22.5t-20-9.5h-608q-13 0-25.5 9.5t-16.5 22.5z">
-                              </path>
-                            </svg>
-                          </i>
+                    </span>
+                    <span class="btn-toggle-item__js-ets-mm-btn-toggle-item_tab">
+                      <i class="ets_svg">
+                        <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
+                          </path>
+                        </svg>
+                      </i>
+                    </span>
+                    <ul class="list-columns__tab-columns__from-top">
+                      <!--Products > Book (Menu)-->
+                      <li class="menu_header_title_sub">
+                        <span class="back_to_item__js-ets-mm-back-item">
+                          <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1792 800v192q0 14-9 23t-23 9h-1248v224q0 21-19 29t-35-5l-384-350q-10-10-10-23 0-14 10-24l384-354q16-14 35-6 19 9 19 29v224h1248q14 0 23 9t9 23z">
+                            </path>
+                          </svg>
                           "Books"
                         </span>
-                      </span>
-                      <span class="btn-toggle-item__js-ets-mm-btn-toggle-item_tab">
-                        <i class="ets_svg">
-                          <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
+                        <span class="close_menu__js-ets-mm-close-sub-menu">
+                          <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z">
+                            </path>
+                          </svg>
+                        </span>
+                      </li>
+                      <!--Products > Books > Megazines-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-746812">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Magazines</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Cinefex</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Previews</a>
+                                  </li>    
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Star Wars Insider</a>
+                                  </li>                          
+                                  <!--Can add more categories for Megazines here! -->
+
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <!--Products > Books > Books-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-712139">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Books</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Absolute Edition</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Art Book</a>
+                                  </li>    
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Omnibus</a>
+                                  </li>                          
+                                  <!--Can add more categories for Books here! -->
+
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3"></li>
+                    </ul>
+                  </li>
+                  <!--Products > Manga-->
+                  <li class="tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub">
+                    <span class="ets-mm-tab-item-link__ets-text-bold" id="ets-mm-menu-item-link-m0_t4" style>
+                      <span class="tab-menu-item-text" style>
+                        <i class="tab-icon__tab-icon-font__icon-svg__moon-o">
+                          <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1390 1303q-54 9-110 9-182 0-337-90t-245-245-90-337q0-192 104-357-201 60-328.5 229t-127.5 384q0 130 51 248.5t136.5 204 204 136.5 248.5 51q144 0 273.5-61.5t220.5-171.5zm203-85q-94 203-283.5 324.5t-413.5 121.5q-156 0-298-61t-245-164-164-245-61-298q0-153 57.5-292.5t156-241.5 235.5-164.5 290-68.5q44-2 61 39 18 41-15 72-86 78-131.5 181.5t-45.5 218.5q0 148 73 273t198 198 273 73q118 0 228-51 41-18 72 13 14 14 17.5 34t-4.5 38z">
                             </path>
                           </svg>
                         </i>
+                        "Manga"
                       </span>
-                      <ul class="list-columns__tab-columns__from-top">
-                        <li class="menu_header_title_sub">
-                          <span class="back_to_item__js-ets-mm-back-item">
-                            <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1792 800v192q0 14-9 23t-23 9h-1248v224q0 21-19 29t-35-5l-384-350q-10-10-10-23 0-14 10-24l384-354q16-14 35-6 19 9 19 29v224h1248q14 0 23 9t9 23z">
-                              </path>
-                            </svg>
-                            "Books"
-                          </span>
-                          <span class="close_menu__js-ets-mm-close-sub-menu">
-                            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z">
-                              </path>
-                            </svg>
-                          </span>
-                        </li>
-                        <!--Products > Books > Megazines-->
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                          <ul class="list-blocks__menu-column-blocks">
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-746812">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Magazines</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Cinefex</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Previews</a>
-                                    </li>    
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Star Wars Insider</a>
-                                    </li>                          
-                                    <!--Can add more categories for Megazines here! -->
-
-                                  </ul>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                        </li>
-                        <!--Products > Books > Books-->
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                          <ul class="list-blocks__menu-column-blocks">
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-712139">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Books</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Absolute Edition</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Art Book</a>
-                                    </li>    
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Omnibus</a>
-                                    </li>                          
-                                    <!--Can add more categories for Books here! -->
-
-                                  </ul>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                        </li>
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3"></li>
-                      </ul>
-                    </li>
-                    <!--Products > Manga-->
-                    <li class="tab-item__js-ets-mm-tab-item-hover-open__arrow-item__has-sub">
-                      <span class="ets-mm-tab-item-link__ets-text-bold" id="ets-mm-menu-item-link-m0_t4" style>
-                        <span class="tab-menu-item-text" style>
-                          <i class="tab-icon__tab-icon-font__icon-svg__moon-o">
-                            <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1390 1303q-54 9-110 9-182 0-337-90t-245-245-90-337q0-192 104-357-201 60-328.5 229t-127.5 384q0 130 51 248.5t136.5 204 204 136.5 248.5 51q144 0 273.5-61.5t220.5-171.5zm203-85q-94 203-283.5 324.5t-413.5 121.5q-156 0-298-61t-245-164-164-245-61-298q0-153 57.5-292.5t156-241.5 235.5-164.5 290-68.5q44-2 61 39 18 41-15 72-86 78-131.5 181.5t-45.5 218.5q0 148 73 273t198 198 273 73q118 0 228-51 41-18 72 13 14 14 17.5 34t-4.5 38z">
-                              </path>
-                            </svg>
-                          </i>
+                    </span>
+                    <span class="btn-toggle-item__js-ets-mm-btn-toggle-item_tab">
+                      <i class="ets-svg">
+                        <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
+                          </path>
+                        </svg>
+                      </i>
+                    </span>
+                    <ul class="list-columns__tab-columns__from-top">
+                      <li class="menu_header_title_sub">
+                        <span class="back_to_item__js-ets-mm-back-item">
+                          <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1792 800v192q0 14-9 23t-23 9h-1248v224q0 21-19 29t-35-5l-384-350q-10-10-10-23 0-14 10-24l384-354q16-14 35-6 19 9 19 29v224h1248q14 0 23 9t9 23z">
+                            </path>
+                          </svg>
                           "Manga"
                         </span>
-                      </span>
-                      <span class="btn-toggle-item__js-ets-mm-btn-toggle-item_tab">
-                        <i class="ets-svg">
-                          <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">
+                        <span class="close_menu__js-ets-mm-close-sub-menu">
+                          <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z">
                             </path>
                           </svg>
-                        </i>
-                      </span>
-                      <ul class="list-columns__tab-columns__from-top">
-                        <li class="menu_header_title_sub">
-                          <span class="back_to_item__js-ets-mm-back-item">
-                            <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1792 800v192q0 14-9 23t-23 9h-1248v224q0 21-19 29t-35-5l-384-350q-10-10-10-23 0-14 10-24l384-354q16-14 35-6 19 9 19 29v224h1248q14 0 23 9t9 23z">
-                              </path>
-                            </svg>
-                            "Manga"
-                          </span>
-                          <span class="close_menu__js-ets-mm-close-sub-menu">
-                            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z">
-                              </path>
-                            </svg>
-                          </span>
-                        </li>
-                        <!--Products > Manga > Manga-->
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                          <ul class="list-blocks__menu-column-blocks">
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-921627">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Manga</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">All Manga</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Junji Ito</a>
-                                    </li>    
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Berserk</a>
-                                    </li>    
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Chainsaw man</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Cowboy Bebop</a>
-                                    </li>    
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Vagabond</a>
-                                    </li>                      
-                                    <!--Can add more categories for Manga here! -->
+                        </span>
+                      </li>
+                      <!--Products > Manga > Manga-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-921627">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Manga</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">All Manga</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Junji Ito</a>
+                                  </li>    
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Berserk</a>
+                                  </li>    
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Chainsaw man</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Cowboy Bebop</a>
+                                  </li>    
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Vagabond</a>
+                                  </li>                      
+                                  <!--Can add more categories for Manga here! -->
 
-                                  </ul>
-                                </div>
+                                </ul>
                               </div>
-                            </li>
-                          </ul>
-                        </li>
-                        <!--Products > Manga > Publishers-->
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                          <ul class="list-blocks__menu-column-blocks">
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-555010">
-                              <div class="block-wrapper">
-                                <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Publishers</span>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Tokyo Pop</a>
-                                    </li>
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Viz Media</a>
-                                    </li>    
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Yen Press</a>
-                                    </li>                      
-                                    <!--Can add more categories for Publishers here! -->
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <!--Products > Manga > Publishers-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-555010">
+                            <div class="block-wrapper">
+                              <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Publishers</span>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Tokyo Pop</a>
+                                  </li>
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Viz Media</a>
+                                  </li>    
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Yen Press</a>
+                                  </li>                      
+                                  <!--Can add more categories for Publishers here! -->
 
-                                  </ul>
-                                </div>
+                                </ul>
                               </div>
-                            </li>
-                          </ul>
-                        </li>
-                        <!--Products > Manga > Clearance-->
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
-                          <ul class="list-blocks__menu-column-blocks">
-                            <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-4993">
-                              <div class="block-wrapper">
-                                <spam class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Clearance</spam>
-                                <div class="block-content__submenu-item-content">
-                                  <ul class="block-collection">
-                                    <!---->
-                                    <li>
-                                      <a href="category.html">Sale Manga</a>
-                                    </li>                      
-                                    <!--Can add more categories for Clearance here! -->
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <!--Products > Manga > Clearance-->
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3">
+                        <ul class="list-blocks__menu-column-blocks">
+                          <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-4993">
+                            <div class="block-wrapper">
+                              <spam class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Clearance</spam>
+                              <div class="block-content__submenu-item-content">
+                                <ul class="block-collection">
+                                  <!---->
+                                  <li>
+                                    <a href="category.html">Sale Manga</a>
+                                  </li>                      
+                                  <!--Can add more categories for Clearance here! -->
 
-                                  </ul>
-                                </div>
+                                </ul>
                               </div>
-                            </li>
-                          </ul>
-                        </li>
-                        <li class="col-item__menu-column__mm-menu-column-container__mm-col-3"></li>
-                      </ul>
-                    </li>
-                    <!-- Can add more sections within section for Product here! just follow the format like above-->
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="col-item__menu-column__mm-menu-column-container__mm-col-3"></li>
+                    </ul>
+                  </li>
+                  <!-- Can add more sections within section for Product here! just follow the format like above-->
+              
+                </ul>
+              </li>
+              
+              <!--New Release Section-->
+              <li class="menu-item__menu-item-header__js-ets-mm-menu-item-hover-open__ets_mm_menu_item_li__align-auto" style>
+                <div class="menu-item-header-title">
+                  <a id="ets-mm-menu-item-link-m1" class="menu-item-link__js-ets-mm-inner-text-menu-item" href="category.html">
+                    <span class="main-menu-item-text" style>
+                      <i class="menu-icon__menu-icon-font__menu-item-icon__icon-svg__bbullhorn">
+                        <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1664 640q53 0 90.5 37.5t37.5 90.5-37.5 90.5-90.5 37.5v384q0 52-38 90t-90 38q-417-347-812-380-58 19-91 66t-31 100.5 40 92.5q-20 33-23 65.5t6 58 33.5 55 48 50 61.5 50.5q-29 58-111.5 83t-168.5 11.5-132-55.5q-7-23-29.5-87.5t-32-94.5-23-89-15-101 3.5-98.5 22-110.5h-122q-66 0-113-47t-47-113v-192q0-66 47-113t113-47h480q435 0 896-384 52 0 90 38t38 90v384zm-128 604v-954q-394 302-768 343v270q377 42 768 341z">
+                          </path>
+                        </svg>
+                      </i>
+                      "New Release"
+                    </span>
+                  </a>
+                </div>
+              </li>
+              <!--Coming soon section-->
+              <li class="menu-item__menu-item-header__js-ets-mm-menu-item-hover-open__ets_mm_menu_item_li__align-auto" style>
+                <div class="menu-item-header-title">
+                  <a id="ets-mm-menu-item-link-m2" class="menu-item-link__js-ets-mm-inner-text-menu-item" href="category.html">
+                    <span class="main-menu-item-text" style>
+                      <i class="menu-icon__menu-icon-font__menu-item-icon__icon-svg__bolt">
+                        <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1333 566q18 20 7 44l-540 1157q-13 25-42 25-4 0-14-2-17-5-25.5-19t-4.5-30l197-808-406 101q-4 1-12 1-18 0-31-11-18-15-13-39l201-825q4-14 16-23t28-9h328q19 0 32 12.5t13 29.5q0 8-5 18l-171 463 396-98q8-2 12-2 19 0 34 15z">
+                          </path>
+                        </svg>
+                      </i>
+                      "Coming Soon"
+                    </span>
+                  </a>
+                </div>
+              </li>
+              <!--SALE section-->
+              <li class="menu-item__menu-item-header__js-ets-mm-menu-item-hover-open__ets_mm_menu_item_li__arrow-item_has_subs__align-auto" style>
+                <div class="menu-item-header-title">
+                  <a id="ets-mm-menu-item-link-m3" class="menu-item-link__js-ets-mm-inner-text-menu-item__ets-text-bold" href="home_page.html">
+                    <span class="main-menu-item-text" style>
+                      <i class="menu-icon__menu-icon-font__menu-item-icon__icon-svg__tag">
+                        <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M576 448q0-53-37.5-90.5t-90.5-37.5-90.5 37.5-37.5 90.5 37.5 90.5 90.5 37.5 90.5-37.5 37.5-90.5zm1067 576q0 53-37 90l-491 492q-39 37-91 37-53 0-90-37l-715-716q-38-37-64.5-101t-26.5-117v-416q0-52 38-90t90-38h416q53 0 117 26.5t102 64.5l715 714q37 39 37 91z">
+                          </path>
+                        </svg>
+                      </i>
+                      "SALE!"
 
-                  <!--New Release Section-->
-                  
-              </ul>
-            </li>
-          </ul>
-        </nav>
+                    </span>
+                  </a>
+                  <span class="btn-toggle-item__js-ets-mm-btn-toggle-item">
+                    <i class="ets_svg">
+                      <svg width="18" height="18" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1171 960q0 13-10 23l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23z">                            </path>
+                      </svg>
+                    </i>
+                  </span>
+                </div>
+                <ul class="list-columns" data-width="1200">
+                  <li class="menu_header_title_sub">
+                    <span class="back_to_item__js-ets-mm-back-item">
+                      <svg width="16" height="16" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1792 800v192q0 14-9 23t-23 9h-1248v224q0 21-19 29t-35-5l-384-350q-10-10-10-23 0-14 10-24l384-354q16-14 35-6 19 9 19 29v224h1248q14 0 23 9t9 23z">
+                        </path>
+                      </svg>
+                      "SALE!"
+                    </span>
+                    <span class="close_menu__js-ets-mm-close-sub-menu">
+                      <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z">
+                        </path>
+                      </svg>
+                    </span>
+                  </li>
+                  <!--SALE > Sale by Month-->
+                  <li class="col-item__menu-column__mm-menu-column-container__mm-col-4">
+                    <ul class="list-blocks__menu-column-blocks">
+                      <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-679404">
+                        <div class="block-wrapper">
+                          <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Sale by Month</span>
+                          <div class="block-content__submenu-item-content">
+                            <ul class="block-collection">
+                              <!---->
+                              <li>
+                                <a href="category.html">Sale/Clearance Items</a>
+                              </li>    
+                              <!---->
+                              <li>
+                                <a href="category.html">New to Clearance</a>
+                              </li>                      
+                              <!--Can add more categories for Publishers here! -->
+
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>>
+                  <!--SALE > Sale by Category-->
+                  <li class="col-item__menu-column__mm-menu-column-container__mm-col-4">
+                    <ul class="list-blocks__menu-column-blocks">
+                      <li class="block-item__submenu-item__menu-column-blocks-item" id="ets-mm-block-219298">
+                        <div class="block-wrapper">
+                          <span class="block-title__submenu-item-heading__ets_enable_heading_divider__ets-text-bold">Sale by Category</span>
+                          <div class="block-content__submenu-item-content">
+                            <ul class="block-collection">
+                              <!---->
+                              <li>
+                                <a href="category.html">Sale Manga</a>
+                              </li>                      
+                              <!--Can add more categories for Publishers here! -->
+
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="col-item__menu-column__mm-menu-column-container__mm-col-4"></li>
+                </ul>
+              </li>
+              <!--Can add more section for third nav bar right here just follow format-->
+
+            </ul>
+          </nav>
+          <div class="ets_mm_height_sticky"></div>
+        </div>
+        <!--Nav bar for mobile-->
+        <div>
+        
+        </div>
       </div>
-    </div>
   </header>
 
 
